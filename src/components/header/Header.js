@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import './header.scss'
-import personalImage from '../../assets/images/agad.jpg'
+import personalImage from '../../assets/images/info-bg.webp'
 import { ReactComponent as Calender } from '../../assets/svg/calendar-alt-stroke.svg'
 import { ReactComponent as Earth } from '../../assets/svg/earth.svg'
 import { ReactComponent as Location } from '../../assets/svg/location.svg'
@@ -15,11 +15,11 @@ import { ReactComponent as JavascriptIcon } from '../../assets/svg/javascript.sv
 import { ReactComponent as GithubIcon } from '../../assets/svg/github.svg'
 import { ReactComponent as SassIcon } from '../../assets/svg/sass.svg'
 import { ReactComponent as NodeIcon } from '../../assets/svg/node-dot-js.svg'
-import { ReactComponent as NpmIcon } from '../../assets/svg/npm.svg'
+import { ReactComponent as PostgreSql } from '../../assets/svg/postgresql.svg'
 import { ReactComponent as TailwindIcon } from '../../assets/svg/tailwindcss.svg'
 import { ReactComponent as WordpressIcon } from '../../assets/svg/wordpress.svg'
-import { ReactComponent as VisualstudioIcon } from '../../assets/svg/visualstudiocode.svg'
-import { ReactComponent as BootstrapIcon } from '../../assets/svg/bootstrap.svg'
+import { ReactComponent as Jest } from '../../assets/svg/jest.svg'
+import { ReactComponent as Docker } from '../../assets/svg/docker.svg'
 import { ReactComponent as Gears } from '../../assets/svg/gears.svg'
 import { ReactComponent as Refresh } from '../../assets/svg/refresh.svg'
 import { ReactComponent as Mobile } from '../../assets/svg/mobile.svg'
@@ -27,38 +27,11 @@ import { ReactComponent as Circle } from '../../assets/svg/circle.svg'
 import { ReactComponent as Global } from '../../assets/svg/global.svg'
 import Logo from '../logo/Logo'
 import {motion} from 'framer-motion'
-
-
- const svgOpacity = {
-  hidden:{
-      opacity: 0
-  },
-  visible: {
-      opacity:1,
-      transition: {
-          duration: 1
-      }
-    }
-  }
-
-  const pathVariants = {
-    hidden:{opacity: 0,
-    pathLength: 0},
-    visible: 
-    {opacity: 1,
-    pathLength: 1
-    },
-    transition:{
-        duration:2,
-        ease: 'ease-in-out'
-    }
-}
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Header() {
   return (
   <Fragment>
-    
     <div className="header h-full xl:h-screen lg:w-screen p-6 relative flex justify-between from-primary to-secondary text-primary-content -mt-[4rem] grid 
        place-items-center items-end bg-gradient-to-br pt-20 bg-contain"> 
 
@@ -108,7 +81,7 @@ function Header() {
               <ReduxIcon className='brand-icon'/>
               <NodeIcon className='brand-icon'/>
               <FirebaseIcon className='brand-icon'/> 
-              <NpmIcon className='brand-icon'/>           
+              <PostgreSql className='brand-icon'/>           
             </div>
 
             <div className="brands-col flex flex-row mb-3">
@@ -116,20 +89,20 @@ function Header() {
               <HtmlIcon className='brand-icon'/>  
               <CssIcon className='brand-icon'/>
               <TailwindIcon className='brand-icon'/>
-              <BootstrapIcon className='brand-icon'/>
+              <Docker className='brand-icon'/>
             </div>
 
-            <div className="brands-col flex flex-row mb-3">
-              <WordpressIcon className='brand-icon'/>                           
-              <VisualstudioIcon className='brand-icon'/>     
-              <GithubIcon className='brand-icon'/>       
+            <div className="brands-col flex flex-row mb-3">       
+              <Jest className='brand-icon'/> 
+              <GithubIcon className='brand-icon'/>
+              <WordpressIcon className='brand-icon'/>         
             </div>       
          </div>
       </div> 
     
      <div className="card-container w-1/2 flex justify-end">  
       <div className="card w-96 glass shadow-xl">
-      <div><figure><img src= {personalImage} alt="card!" className='card-image mt-4'/></figure></div> 
+      <div><figure><LazyLoadImage src= {personalImage} alt="card!" className='card-image mt-4'/></figure></div> 
         <div className="card-body text-white">
          <h4 className="card-title text-white">Ahmed Gad</h4>
          <div className="card-actions">             

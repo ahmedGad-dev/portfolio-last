@@ -1,21 +1,21 @@
 import React from 'react'
-import Aou from '../../assets/images/aou.jpeg'
-import Udacity from '../../assets/images/udacity.jpeg'
+import Aou from '../../assets/images/aou.webp'
+import Udacity from '../../assets/images/udacity.webp'
 import './certificats.scss'
-import {FcGraduationCap} from 'react-icons/fc'
 import {GrCertificate, GrCode} from 'react-icons/gr'
 import {TbLanguage} from 'react-icons/tb'
 import {SiUdacity} from 'react-icons/si'
 import {SiUdemy} from 'react-icons/si'
 import {FaGraduationCap} from 'react-icons/fa'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Certifications = () => {
   return (
     <div className='certifications flex flex-col sm:flex-row justify-center align center flex-wrap mt-36'>
 
          <div className="certificates w-full sm:w-1/2 flex mb-6 sm:mb-0 flex-col sm:flex-row items-center align-center justify-center sm:justify-between">
-            <img src={Aou} alt="Open university certificate" />
-            <img src={Udacity} alt="Udacity proffessional track certificate" />
+            <LazyLoadImage src={Aou} alt="Open university certificate" />
+            <LazyLoadImage src={Udacity} alt="Udacity proffessional track certificate" />
         </div>
 
         <div className="education w-full sm:w-1/2 flex  justify-center">       

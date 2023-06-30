@@ -1,6 +1,7 @@
 import React from 'react'
 import './repo.scss'
-import gitbg from '../../assets/images/what-is-github-1-1.png'
+import gitbg from '../../assets/images/what-is-github-1-1.webp'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Repo = ({repo}) => {
   const {name, id, clone_url} = repo
@@ -8,7 +9,7 @@ const Repo = ({repo}) => {
   return (
    <div className="repo" key={id}>
       <h2 className="card-title title">{nameFormat.length > 2 ? nameFormat.slice(0,2).join('-') : name.toUpperCase()}</h2>
-      <img src={gitbg} alt="github"/>
+      <LazyLoadImage src={gitbg} alt="github"/>
       <div className="overlay">    
         <button className="btn btn-info btn-outline btn-sm">
           <a href={clone_url} target='_blank' rel='noreferrer'>SEE REPO</a>
