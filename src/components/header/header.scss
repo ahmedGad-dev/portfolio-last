@@ -1,0 +1,301 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+   .card-image{
+    height: 280px;
+    width: 68%;
+   }
+
+  
+ /*  .site-logo{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    top: 0;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 50px;
+
+    &__2{
+      display: none;
+    }
+   }*/
+
+
+   .details{
+    position: relative;
+
+    .info{
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1.5px;
+      word-spacing: 1px;
+      word-wrap: break-word;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      z-index: 1; 
+      min-width: 300px;
+      
+      @media(min-width:641px){
+      
+      }
+
+      .header-list{
+        list-style-type: none;
+        text-align: flex-start;
+        font-size: 25px;       
+        //box-shadow: 0 1px white ;
+       
+        li{
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          opacity: 0;    
+        }
+
+        .head-icon{
+          fill: white;
+        }
+
+        .circle-icon{
+          fill: white;
+          width: 18px;
+          height: 18px;
+        }
+
+        hr{
+          color: white
+        }
+      }
+    }
+
+    .brands{
+      background-color: rgba(0,0,0,0.5);
+      line-height: 35px;
+      z-index: 10;
+      padding: 2rem;
+      min-width: 521px;
+      position: absolute;
+      right:-465px;
+      top: 315px;
+      margin: 0 0 auto;
+      //display: none;
+
+      .brand-icon{
+        width: 65px;
+        height: 65px;
+        fill:  	gray;
+        margin-right: 7px;
+      } 
+
+      @media(max-width:641px){
+        display: none;
+      }
+    }
+
+    .about-paragraph{
+      width: 95%;
+      text-align: center;
+    } 
+
+    
+ @media(max-width:1400px){
+    justify-content: space-around;
+
+  .brands{
+    position: relative;
+    right: 0;
+    top: 0;
+    align-self: auto;
+    margin-top: 1.2rem;
+   }
+ }
+
+ @media(min-width:1400px){
+  margin-left: 30px;
+ }
+}
+
+   .card-container{
+      
+     .info-span{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 7px;
+
+      .icon{
+        font-size: 12px;
+        transform: scale(80%);
+      }
+     }
+   }
+
+   @media(max-width: 1500px){
+    height: 65vh;
+  }
+
+   @media(max-width: 1400px){
+     height: 65vh;
+     .card-container{
+       justify-content: center;       
+     }   
+   }
+
+   @media(max-width: 1024px){
+    height: 95vh;
+    flex-direction: column;
+    justify-content: space-around;
+
+ /*   .site-logo__1{
+      display: block;
+    }*/
+
+    .card-container{
+      order: 1;
+      min-width: 700px;
+    }
+
+    .details{
+       order: 2;
+       justify-content: center;
+       width: auto;
+
+     /*  .site-logo__2{
+         display: none;
+       }*/
+    }
+
+    .card{
+      flex-direction: row;    
+      min-width: 600px; 
+
+      .card-image{
+        width: auto;
+        margin: 1rem;
+      }
+      .card-body{
+        width: 50%;
+      }
+    }   
+  }
+  
+  @media(max-width:1024px){
+    height: auto;
+  }
+
+  @media(max-width:641px){
+    height: auto;
+
+      .details{
+        align-items: center;
+        justify-content: center;
+        .info{
+          min-width: 400px;
+          width: 420px;
+          align-content: center;
+          justify-content: center;
+          align-items: start;
+        }
+
+        .brands{
+          padding: 1rem;
+          min-width: 400px;
+          width: 500px;
+        }
+      }
+
+      .card-container{
+        margin-top: 20px;
+        .card{
+          flex-direction: column; 
+          width: 420px;   
+          min-width: 400px;
+    
+          .card-body{
+            width: 80%;
+          }
+         }
+      }  
+   }
+
+   @media(max-width: 500px){
+       .details{
+        .brands{
+           flex-direction: row;
+           gap: 1rem;
+           min-width: 300px;
+           width: 300px;
+          .brands-col{
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: space-around;
+            align-content: space-around;
+            gap: 12px;
+          }      
+        }
+      }
+
+      .card-container{
+        .card{
+          flex-direction: column; 
+          width: 350px;   
+          min-width: 300px;
+         }
+      }  
+   }
+
+   @media(max-width:450px ){
+      .details{
+        .info{
+          min-width: 300px;
+          width: 350px;
+          font-size: 20px;
+          .progress-bar{
+            width: 200px
+          }
+        }
+      }
+
+      .card-container{
+        .card{
+          flex-direction: column; 
+          width: 320px;   
+          min-width: 300px;
+          font-size: 14px;
+         }
+      } 
+   }
+
+   @media(max-width:400px ){
+    .details{
+      .info{
+        min-width: 300px;
+        width: 330px;
+        font-size: 16px;
+        .progress-bar{
+          width: 200px
+        }
+      }
+    }
+
+    .card-container{
+      .card{
+        flex-direction: column; 
+        width: 320px;   
+        min-width: 300px;
+        font-size: 14px;
+       }
+    } 
+ }
+ }
+
