@@ -17,11 +17,16 @@
      }
 
      &--list{
-      background-image: url(../../assets/images/istockphoto-2.jpeg);
+ /*     background-image: url(../../assets/images/istockphoto-2.webp);
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
-
+ */
+      padding-top: 55px;
+      border-bottom: 1px solid #000;
+      border-top: 1px solid #000;
+      margin-bottom: 10px;
+      
       @media(max-width: 500px){
         min-width: 350px;
       }

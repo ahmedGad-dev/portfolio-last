@@ -4,7 +4,7 @@
 
 .section-features{
     padding: 20rem 0; //200px
-    background-image: linear-gradient(to bottom right, rgba(#720BED,0.7), rgba(#BC03CB, 0.7)), url(../../assets/images/background.jpg);    
+    background-image: linear-gradient(to bottom right, rgba(#720BED,0.7), rgba(#BC03CB, 0.7)), url(../../assets/images/background.webp);    
     background-size: cover;
     background-position: top;
     position: relative;
@@ -19,13 +19,8 @@
     }
 
     .services{
-        -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-        animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-        animation-iteration-count: infinite;
-        animation-delay: 2s;
         color: white;
         letter-spacing: 3px;
-        transform: skewY(7deg);
         position: relative;
         top: -8rem;
         font-weight: bold;

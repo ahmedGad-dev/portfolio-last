@@ -19,7 +19,7 @@ const Certifications = () => {
         </div>
 
         <div className="education w-full sm:w-1/2 flex  justify-center">       
-          <div className='flex flex-row justify-center align-center mb-6'>  <FaGraduationCap className='education-icon education-icon__1'/> <h2 className='name mr-2'> Education</h2></div>  
+          <div className='flex flex-row justify-center align-center mb-6'>  <FaGraduationCap className='education-icon education-icon__1'/> <h2 className='name mr-2'> EXPERIENCE </h2></div>  
 
           <div className='info flex flex-col p-4 justify-around gap-6'>
             <div className="flex flex-row justify-center align-center">

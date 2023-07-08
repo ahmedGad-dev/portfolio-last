@@ -2,12 +2,10 @@ import React from 'react'
 import './features.scss'
 import '../../sass/grid.scss'
 import { ReactComponent as ReactIcon } from '../../assets/svg/react.svg'
-import { ReactComponent as JsIcon } from '../../assets/svg/javascript.svg'
+import { ReactComponent as Jest } from '../../assets/svg/jest.svg'
 import { ReactComponent as NodeIcon } from '../../assets/svg/node-dot-js.svg'
-import { ReactComponent as FirebaseIcon } from '../../assets/svg/firebase.svg'
-import { ReactComponent as WordpressIcon } from '../../assets/svg/wordpress.svg'
-import { ReactComponent as HtmlIcon } from '../../assets/svg/html5-color.svg'
-import { ReactComponent as CssIcon } from '../../assets/svg/css3-color.svg'
+import { ReactComponent as Redux } from '../../assets/svg/redux.svg'
+
 
 const Features = () => {
   return (
@@ -21,17 +19,17 @@ const Features = () => {
         <div className="col-1-of-4">
             <div className="feature-box flex flex-col jutsify-center align-center">
                 <div className='flex self-center align-center items-center justify-center gap-3'>
-                    <ReactIcon className='feature-box__icon' /> <JsIcon className='feature-box__icon'/>
+                    <ReactIcon className='feature-box__icon' />
                 </div>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">React JS</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">React</h3>
                 <p className="feature-box__text">
                     <ul>
-                     <li>React Hooks</li>
+                     <li>Hooks</li>
                      <li>React Router V6</li>
                      <li>Context API</li>
-                     <li>Redux</li>
-                     <li>API calls</li>
-                     <li>Performance </li>
+                     <li>React Redux</li>
+                     <li>Material UI</li>
+                     <li>Framer Motion</li>
                      <li>Jest</li>
                    </ul>
                 </p>
@@ -41,18 +39,18 @@ const Features = () => {
         <div className="col-1-of-4">
             <div className="feature-box flex flex-col jutsify-center align-center">
                 <div className='flex self-center align-center items-center justify-center gap-3'>
-                    <HtmlIcon className='feature-box__icon' /> <CssIcon className='feature-box__icon'/>
+                    <Redux className='feature-box__icon' /> 
                 </div>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">  HTML|CSS</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">REDUX</h3>
                 <p className="feature-box__text">
                   <ul>
-                    <li>HTML 5</li>
-                    <li>CSS3</li>
-                    <li>SASS</li>
-                    <li>Tailwind</li>
-                    <li>BootStrap</li>
-                    <li>CSS Animations</li> 
-                    <li>Media Queries</li>          
+                    <li>Store & Reducers</li>  
+                    <li>React redux</li>
+                    <li>Redux Toolkit</li>
+                    <li>Redux Thunk</li>                  
+                    <li>Redux Saga</li>                
+                    <li>Reselect</li>
+                    <li>Immer</li>                          
                   </ul>
                 </p>
             </div>
@@ -60,16 +58,19 @@ const Features = () => {
 
         <div className="col-1-of-4">
             <div className="feature-box flex flex-col jutsify-center align-center">
-                <JsIcon className='flex self-center feature-box__icon'/>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">JavaScript</h3>
+                <div className='flex self-center align-center items-center justify-center gap-3'>
+                    <Jest className='feature-box__icon' />
+                </div>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">TESTING</h3>
                 <p className="feature-box__text">
                    <ul>
-                    <li>ES6 JS</li>
-                    <li>TypeScript</li>
-                    <li>Functional paradigm</li>
-                    <li>MVC programming</li>                    
-                    <li>Data Types</li>
-                    <li>Space & time complexity</li>
+                    <li>Lighthouse</li>
+                    <li>Jest</li>
+                    <li>Unit Testing</li>
+                    <li>React/Redux dev tool</li>
+                    <li>React_perf</li>
+                    <li>Integration Testing</li>  
+                    <li>PWA</li>                                   
                    </ul>
                 </p>
             </div>
@@ -80,7 +81,7 @@ const Features = () => {
                 <div className='flex self-center align-center items-center justify-center gap-3'>
                     <NodeIcon className='feature-box__icon' />
                 </div>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">Node JS</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">BACKEND</h3>
                  <p className="feature-box__text">
                    <ul>
                     <li>Express JS</li>

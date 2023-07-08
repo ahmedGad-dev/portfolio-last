@@ -51,7 +51,7 @@ const Repos = ({githubPage, hommePage}) =>{
           my github account using the github API to fetch the repos ${githubPage? '(in case you missed them at home page 😉)': ''}`}
          {hommePage?  <Link to='/github' className='git-link'>Github Page</Link> : ''} 
       </p>
-      <div className='repos--list flex justify-around align-center flex-wrap bg-gray-700 p-3 sm:p-8'>
+      <div className='repos--list flex justify-around align-center flex-wrap  p-3 sm:p-8'>
         {repos && repos.map((repo => {
           const {id} = repo
           return <Repo repo={repo} key={id} />
