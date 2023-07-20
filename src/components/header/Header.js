@@ -25,6 +25,7 @@ import { ReactComponent as Refresh } from '../../assets/svg/refresh.svg'
 import { ReactComponent as Mobile } from '../../assets/svg/mobile.svg'
 import { ReactComponent as Circle } from '../../assets/svg/circle.svg'
 import { ReactComponent as Global } from '../../assets/svg/global.svg'
+import { ReactComponent as LinkedIn } from '../../assets/svg/linkedin2.svg'
 import Logo from '../logo/Logo'
 import {motion} from 'framer-motion'
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -110,7 +111,8 @@ function Header() {
             <h6 className='info-span'> <Location className='icon'/> Helioplis, Cairo, Egypt</h6>
             <h6 className='info-span'> <Mail className='icon'/> ahmedamrgad12345@gmail.com</h6>
             <h6 className='info-span'> <Phone className='icon'/> +201009860198</h6>
-            <h6 className='info-span'> <Earth className='icon'/> ahmedgad-dev.com</h6>          
+            <h6 className='info-span'> <Earth className='icon'/> ahmedgad-dev.com</h6>     
+            <h6 className='info-span'> <LinkedIn className='icon'/> https://www.linkedin.com/in/ahmed-gad-0980221b5/</h6>                
          </div>      
        </div>
      </div>

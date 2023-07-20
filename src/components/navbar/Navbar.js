@@ -5,7 +5,7 @@ import {ReactComponent as ChatIcon} from '../../assets/svg/chat-alt-stroke.svg'
 import { Outlet } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import  Logo from '../../components/logo/Logo';
-import { HashLink } from 'react-router-hash-link';
+//import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
@@ -17,11 +17,9 @@ const Navbar = () => {
          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
        </label>
        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-52 bg-gray-700">
-         <li><Link to='/'>Home</Link></li>
-         <li><Link to='/github'>GitHub</Link></li>
-         <li><HashLink to='/#projects'>Projects</HashLink></li>
-         <li><HashLink to='#repos'>Github Repos</HashLink></li>
-         <li><HashLink to='#about'>About</HashLink></li>
+         <li><Link to='/' className='text-lg'>Home</Link></li>
+         <li><Link to='/experience' className='text-lg'>CV & Experience</Link></li>
+         <li><Link to='/github' className='text-lg'>GitHub</Link></li>        
        </ul>
       </div>
       <Logo className='logo-nav' nav/>

@@ -24,12 +24,12 @@ const Experience = () => {
             <div className="job-title">Full Stack Web Developer</div>
             <span className='period'>May 2022 </span>
             <ul className="skills">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Building Full Stack Web Apps</li>
+              <li>React/Redux</li>
+              <li>UI/UX</li>
+              <li>Web API's</li>
+              <li>Node/Express</li>
+              <li>PWA</li>
             </ul>
           </div>
           

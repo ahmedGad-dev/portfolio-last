@@ -3,8 +3,8 @@ import './about.scss'
 import image2 from '../../assets/images/design-1.webp'
 import image1 from '../../assets/images/design-2.webp'
 import image3 from '../../assets/images/design-3.webp'
-import {GrTwitter,GrInstagram} from 'react-icons/gr'
-import {FaFacebookF, FaTelegramPlane, FaGithub} from 'react-icons/fa'
+import {GrInstagram} from 'react-icons/gr'
+import {FaFacebookF, FaTelegramPlane, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {RiWhatsappFill} from 'react-icons/ri'
 
 
@@ -34,11 +34,11 @@ const About = () => {
                <h3 className="heading-tertiary u-margin-bottom-small">feel free to contact me on social media</h3>
                <div className="social flex flex-row  self-center">
                 <a href='https://wa.me/01009860198' target='_blank' rel="noreferrer"> <RiWhatsappFill className='icon' title='WhatsApp'/></a>
-                <a href='https://m.facebook.com/100000715726616/' target='_blank' rel="noreferrer"><FaFacebookF className='icon' title='Facebook'/></a>
-                <a href='https://www.instagram.com/ahmedgad220' target='_blank' rel="noreferrer"><GrInstagram className='icon' title='Instagram'/></a>
+                <a href='https://www.linkedin.com/in/ahmed-gad-0980221b5/' target='_blank' rel="noreferrer"><FaLinkedin className='icon' title='LinkedIn'/></a>
                 <a href='https://github.com/ahmedGad-dev' target='_blank' rel="noreferrer"><FaGithub className='icon' title='Github'/> </a>
-                <a href='https://www.instagram.com/ahmedgad220' target='_blank' rel="noreferrer"><GrTwitter className='icon' title='Twitter' /></a>
+                <a href='https://www.instagram.com/ahmedgad220' target='_blank' rel="noreferrer"><GrInstagram className='icon' title='Instagram'/></a>     
                 <a href='https://t.me/ahmedGad_Dev' target='_blank' rel="noreferrer"><FaTelegramPlane className='icon' title='Telegram'/></a>
+                <a href='https://m.facebook.com/100000715726616/' target='_blank' rel="noreferrer"><FaFacebookF className='icon' title='Facebook'/></a>
                </div>
    
             </div>
