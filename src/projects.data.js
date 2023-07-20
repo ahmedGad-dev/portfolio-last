@@ -10,11 +10,12 @@ const menu = [
     },
     {
       id: 2,
-      title: 'Comfy Sloth',
+      title: 'Woods',
       category: 'React',
       img: 'https://i.ibb.co/tDgLkvZ/comfy-Sloth1.png',
       desc: `A furniture selling website has a shop page containing all sorts of filters made by reducers to keep one truth for state changes`,
       technologies:['React', 'Hooks', 'JS', 'Context API', 'Styled Components','React Router V6'],
+      url: 'https://ahmedgad-dev.github.io/woods/#/'
     },
     {
       id: 3,
