@@ -64,6 +64,8 @@
         transform: scale(.95);
     }
     //composition:hover composition__photo:not(:hover) {
+
+   
 }
 
 
@@ -93,6 +95,21 @@
             margin: 0.4rem;
         }
     }
+}
+
+.pill-btn{
+text-transform: uppercase;
+color: white;
+padding: 15px 40px;
+display: inline-block;
+transition: all .2s;
+text-decoration: none;
+border-radius: 100px;
+position: relative;
+border: none;
+cursor: pointer;
+background-color: purple;
+margin-top:10px;
 }
 
 .paragraph{

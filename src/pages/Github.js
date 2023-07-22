@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { GithubContext } from '../context/context';
 import { Pie3D, Column3D, Bar3D, Doughnut2D } from '../components/Charts/';
 import { ReactComponent as GithubLogo } from '../assets/svg/github.svg';
-import {VscGithub} from 'react-icons/vsc'
 import Repos from '../components/repos/Repos'
-import Logo from  '../components/logo/Logo'
+import { Link } from 'react-router-dom';
+
 
 
 const Github = () => {
@@ -53,8 +53,10 @@ const Github = () => {
   return(
     (<section className=''>
       { githubUser && <h3 className='text-2xl sm:text-3xl md:text-5xl mb-0 md:mb-3 2xl:mb-8'>{githubUser.login}</h3>}
-        <div className='w-full flex justify-center'><Logo/></div>
-
+        <div>
+          <Link to='/experience' className="pill-btn">See CV</Link>
+        </div>
+        
           {/* large screen stats*/}
          <div className="stats shadow mt-8 hidden sm:inline-flex md:m-8 lg:m-16">
            <div className="stat">

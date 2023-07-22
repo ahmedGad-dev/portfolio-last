@@ -6,6 +6,7 @@ import image3 from '../../assets/images/design-3.webp'
 import {GrInstagram} from 'react-icons/gr'
 import {FaFacebookF, FaTelegramPlane, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {RiWhatsappFill} from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -40,7 +41,7 @@ const About = () => {
                 <a href='https://t.me/ahmedGad_Dev' target='_blank' rel="noreferrer"><FaTelegramPlane className='icon' title='Telegram'/></a>
                 <a href='https://m.facebook.com/100000715726616/' target='_blank' rel="noreferrer"><FaFacebookF className='icon' title='Facebook'/></a>
                </div>
-   
+               <Link to='/experience' className="pill-btn">See CV</Link>
             </div>
             <div className="col-1-of-2">
                <div className="composition">

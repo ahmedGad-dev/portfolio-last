@@ -81,7 +81,7 @@ const Experience = () => {
       <figure className="gallery__item gallery__item--6"><LazyLoadImage src={linkedin3} alt="Gallery" className="gallery__img"/></figure>
      </div>
     </div>
-  </section>
+  </section>  
   )
 }
 
