@@ -1,6 +1,6 @@
 {
   "short_name": "Ahmed Gad Dev",
-  "name": "See All Ahmed Gad Dev designs and github repos",
+  "name": "See All Ahmed Gad Dev designs and github repos directly connected to github API",
   "icons": [
     {
       "src": "favicon.ico",
