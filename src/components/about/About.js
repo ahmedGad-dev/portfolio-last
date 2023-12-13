@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <section className="section-about mt-12" id='about'>
+    <section className="section-about mt-3 md:mt-12" id='about'>
       <div className="mb-4 md:mb-16 lg:mb-24">
-          <h2 className="heading-secondary uppercase">
+          <h2 className="heading-secondary text-center uppercase">
               any project    
               <div className="underline"></div>
           </h2>
@@ -41,7 +41,9 @@ const About = () => {
                 <a href='https://t.me/ahmedGad_Dev' target='_blank' rel="noreferrer"><FaTelegramPlane className='icon' title='Telegram'/></a>
                 <a href='https://m.facebook.com/100000715726616/' target='_blank' rel="noreferrer"><FaFacebookF className='icon' title='Facebook'/></a>
                </div>
-               <Link to='/experience' className="pill-btn">See CV</Link>
+               <div className='flex flex-row justify-center'>
+                <Link to='/experience' className="pill-btn">See CV</Link>
+               </div>
             </div>
             <div className="col-1-of-2">
                <div className="composition">

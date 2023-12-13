@@ -19,7 +19,7 @@ const Footer = () => {
      <div className="form-container">
        <form action="https://formspree.io/f/xeqndrvw" method="POST" className='contact-form'>      
          <input type="email" name="email" className='form-input' placeholder='Enter Your Email'/>
-         <div className="pill-btn">Submit</div>
+         <div className="pill-btn mb-3 sm:mb-0">Submit</div>
        </form>
      </div>
     

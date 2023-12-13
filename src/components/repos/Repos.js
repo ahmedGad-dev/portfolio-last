@@ -60,7 +60,7 @@ const Repos = ({githubPage, hommePage}) =>{
 
       {repos && (
           <div className='btn-container'>
-            <button className='prev-btn' onClick={prevPage}  >
+            <button className='prev-btn hidden sm:block' onClick={prevPage}  >
               prev
             </button>
             {data && data.map((_, index) => {
@@ -74,7 +74,7 @@ const Repos = ({githubPage, hommePage}) =>{
                 </button>
               )
             })}
-            <button className='next-btn' onClick={nextPage} >
+            <button className='next-btn hidden sm:block' onClick={nextPage} >
               next
             </button>
           </div>

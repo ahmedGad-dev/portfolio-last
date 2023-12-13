@@ -36,7 +36,7 @@ function Header() {
     <div className="header h-full xl:h-screen lg:w-screen p-6 relative flex justify-between from-primary to-secondary text-primary-content -mt-[4rem] grid 
        place-items-center items-end bg-gradient-to-br pt-20 bg-contain"> 
 
-      <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3 "> 
+      <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3"> 
          <div className="site-logo site-logo__2 flex self-start mb-2">
             <Logo/>
          </div>
