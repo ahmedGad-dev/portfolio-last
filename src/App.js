@@ -14,7 +14,7 @@ function App() {
       <ScrollToTop> 
        <Navbar/>
        <Routes>      
-        <Route index element={<HomePage/>}/>
+        <Route path='/' element={<HomePage/>}/>
         <Route path='github' element={<Github/>}/>
         <Route path='experience' element={<Experience/>}/>       
        </Routes>       
