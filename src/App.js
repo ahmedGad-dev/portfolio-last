@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './App.css';
 import HomePage from './pages/HomePage';
 import {Routes, Route } from 'react-router-dom'
@@ -10,7 +10,6 @@ import Experience from './pages/experience/Experience';
 
 function App() {
   return (
-
       <ScrollToTop> 
        <Navbar/>
        <Routes>      
@@ -20,7 +19,6 @@ function App() {
        </Routes>       
        <Footer/> 
       </ScrollToTop>   
-   
   );
 }
 
