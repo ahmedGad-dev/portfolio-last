@@ -10,20 +10,17 @@ import Experience from './pages/experience/Experience';
 
 function App() {
   return (
-    <div className="App">
-     <Fragment>
-      <ScrollToTop>  
+
+      <ScrollToTop> 
+       <Navbar/>
        <Routes>      
-        <Route path='/' element={<Navbar/>}>
-          <Route index element={<HomePage/>} />
-          <Route path='github' element={<Github/>} />
-          <Route path='experience' element={<Experience/>} />
-        </Route>        
-       </Routes> 
-      </ScrollToTop>      
-      <Footer/> 
-     </Fragment>  
-    </div>
+        <Route index element={<HomePage/>}/>
+        <Route path='github' element={<Github/>}/>
+        <Route path='experience' element={<Experience/>}/>       
+       </Routes>       
+       <Footer/> 
+      </ScrollToTop>   
+   
   );
 }
 
