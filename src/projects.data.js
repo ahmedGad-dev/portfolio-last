@@ -34,7 +34,7 @@ const menu = [
       img: 'https://i.ibb.co/SxZxnGN/booksapp-img.png',
       desc: `Project made with the Udacity proffessional web development training, my first react app it's calling Books api to add books from the API to different book shelfs see the udacity certification below ⬇`,
       technologies:['React', 'API', 'CSS3'],
-      url: 'https://bankist-app-agdev.netlify.app/',
+      url: 'https://books-app-api.netlify.app/',
     },
     {
       id: 5,
@@ -83,6 +83,16 @@ const menu = [
       technologies: ['React', 'Hooks' , 'Restful API', 'Context API'],
       url : 'https://movies-finder-agdev.netlify.app',
     },
+    {
+      id: 10,
+      title: 'Budjet JS',
+      category: 'HTML/CSS/JS',
+      img: 'https://i.ibb.co/CvS0m0J/budget-app.png',
+      desc: `Web app that manages and calculates income and expenses and show the total available money and the spending rates`,
+      technologies: ['JavaScript', 'ES6 JS' , 'Vanilla JS', 'HTML5','CSS3'],
+      url : 'https://agad-budget-app.netlify.app/',
+    },
   ];
+
   export default menu;
   

@@ -9,22 +9,6 @@
     width: 68%;
    }
 
-  
- /*  .site-logo{
-    color: white;
-    font-size: 32px;
-    position: relative;
-    top: 0;
-    letter-spacing: 5px;
-    font-weight: bold;
-    line-height: 50px;
-
-    &__2{
-      display: none;
-    }
-   }*/
-
-
    .details{
     position: relative;
 
@@ -43,16 +27,11 @@
       align-content: center;
       z-index: 1; 
       min-width: 300px;
-      
-      @media(min-width:641px){
-      
-      }
 
       .header-list{
         list-style-type: none;
         text-align: flex-start;
         font-size: 25px;       
-        //box-shadow: 0 1px white ;
        
         li{
           margin-bottom: 20px;
@@ -125,8 +104,7 @@
  }
 }
 
-   .card-container{
-      
+   .card-container{      
      .info-span{
        display: flex;
        justify-content: center;
@@ -139,10 +117,6 @@
       }
      }
    }
-
-/*   @media(max-width: 1500px){
-    height: 65vh;
-  }*/
 
    @media(max-width: 1400px){
      height: 65vh;
