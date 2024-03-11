@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    height: fit-content !important;
 
    .card-image{
     height: 280px;
@@ -119,14 +120,14 @@
    }
 
    @media(max-width: 1400px){
-     height: 65vh;
+    //  height: 65vh;
      .card-container{
        justify-content: center;       
      }   
    }
 
    @media(max-width: 1024px){
-    height: 95vh;
+    // height: 95vh;
     flex-direction: column;
     justify-content: space-around;
 
@@ -270,6 +271,6 @@
         font-size: 14px;
        }
     } 
- }
+  }
  }
 

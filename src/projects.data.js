@@ -5,8 +5,17 @@ const menu = [
       category: 'React',      
       img: 'https://i.ibb.co/yYkbs8t/Capture.png',
       desc: `A responsive dynamic Rect App That Contains different pages, nested routes and modern design`,
-      technologies: ['React', 'Context API', 'React Router V6', 'SASS', 'DaisyUI', 'Firebase' , ],
+      technologies: ['React', 'Context API', 'React Router V6', 'SASS', 'DaisyUI', 'Firebase'],
       url: 'https://sema-decor-zaqatala.netlify.app',
+    },
+    {
+      id: 11,
+      title: 'S-Emi',
+      category: 'React',      
+      img: 'https://i.ibb.co/D8zcGK6/s-emi.png',
+      desc: `An e-commerce platform for selling clothes with over 20 main routes`,
+      technologies: ['React', 'Redux', 'React Router V6', 'Tailwind', 'Vite', 'Rest API'],
+      url: 'https://s-emi.netlify.app/',
     },
     {
       id: 2,

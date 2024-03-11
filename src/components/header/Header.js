@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import './header.scss'
-import personalImage from '../../assets/images/info-bg.webp'
+import personalImage from '../../assets/images/ahmed-gad.jpg'
 import { ReactComponent as Calender } from '../../assets/svg/calendar-alt-stroke.svg'
 import { ReactComponent as Earth } from '../../assets/svg/earth.svg'
 import { ReactComponent as Location } from '../../assets/svg/location.svg'
