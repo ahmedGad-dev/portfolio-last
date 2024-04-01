@@ -1,30 +1,30 @@
 const menu = [
+  {
+    id: 11,
+    title: 'S-Emi',
+    category: 'React',      
+    img: 'https://i.ibb.co/D8zcGK6/s-emi.png',
+    desc: `An e-commerce platform for selling clothes with over 20 main routes`,
+    technologies: ['React', 'Redux', 'React Router V6', 'Tailwind', 'Vite', 'Rest API'],
+    url: 'https://s-emi.netlify.app/',
+  },
     {
       id: 1,
-      title: 'Sema Decor',
-      category: 'React',      
-      img: 'https://i.ibb.co/yYkbs8t/Capture.png',
-      desc: `A responsive dynamic Rect App That Contains different pages, nested routes and modern design`,
-      technologies: ['React', 'Context API', 'React Router V6', 'SASS', 'DaisyUI', 'Firebase'],
-      url: 'https://sema-decor-zaqatala.netlify.app',
-    },
-    {
-      id: 11,
-      title: 'S-Emi',
-      category: 'React',      
-      img: 'https://i.ibb.co/D8zcGK6/s-emi.png',
-      desc: `An e-commerce platform for selling clothes with over 20 main routes`,
-      technologies: ['React', 'Redux', 'React Router V6', 'Tailwind', 'Vite', 'Rest API'],
-      url: 'https://s-emi.netlify.app/',
-    },
-    {
-      id: 2,
       title: 'Woods',
       category: 'React',
       img: 'https://i.ibb.co/tDgLkvZ/comfy-Sloth1.png',
       desc: `A furniture selling website has a shop page containing all sorts of filters made by reducers to keep one truth for state changes`,
       technologies:['React', 'Hooks', 'JS', 'Context API', 'Styled Components','React Router V6'],
       url: 'https://ahmedgad-dev.github.io/woods/#/'
+    },
+    {
+      id: 2,
+      title: 'Sema Decor',
+      category: 'React',      
+      img: 'https://i.ibb.co/yYkbs8t/Capture.png',
+      desc: `A responsive dynamic Rect App That Contains different pages, nested routes and modern design`,
+      technologies: ['React', 'Context API', 'React Router V6', 'SASS', 'DaisyUI', 'Firebase'],
+      url: 'https://sema-decor-zaqatala.netlify.app',
     },
     {
       id: 3,
