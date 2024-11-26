@@ -1,5 +1,32 @@
 const menu = [
   {
+    id: 20,
+    title: 'SH Dezign',
+    category: 'Next.js',      
+    img: 'https://i.ibb.co/r3LL0qq/sh-design.png',
+    desc: `An e-commerce platform showing portfolio of a big designer and decorator`,
+    technologies: ['Next', 'Redux', 'Tailwind', 'Framer Motion', 'Rest API integrations'],
+    url: 'https://shdezign.com/',
+    },
+    {
+      id: 21,
+      title: 'Educita LMS',
+      category: 'Next.js',      
+      img: 'https://i.ibb.co/3F311p8/eduicita.png',
+      desc: `An educational platform where students can regsiter for courses and view thier lessons and quizzes, it has an internal dashboard for instructors manage thier courses`,
+      technologies: ['Next', 'Redux', 'App router', "SSR", 'Tailwind', 'Rest API integrations'],
+      url: 'https://educita-lms.vercel.app/',
+      },
+      {
+        id: 22,
+        title: 'Hulul Dashboard',
+        category: 'React.js',      
+        img: 'https://i.ibb.co/jfckTCs/hulul-dashboard.png',
+        desc: `A Full hotel managment dashboard for mangaging rooms, employees, services, floors as CRUD operations (Desktop view only)`,
+        technologies: ['React', 'Redux', 'RTK/RTK query', 'Tailwind', 'Rest API integrations'],
+        url: 'https://hulul-dashboard.vercel.app/',
+        },
+    {
     id: 11,
     title: 'S-Emi',
     category: 'React',      
@@ -7,18 +34,9 @@ const menu = [
     desc: `An e-commerce platform for selling clothes with over 20 main routes`,
     technologies: ['React', 'Redux', 'React Router V6', 'Tailwind', 'Vite', 'Rest API'],
     url: 'https://s-emi.netlify.app/',
-  },
-    {
-      id: 1,
-      title: 'Woods',
-      category: 'React',
-      img: 'https://i.ibb.co/tDgLkvZ/comfy-Sloth1.png',
-      desc: `A furniture selling website has a shop page containing all sorts of filters made by reducers to keep one truth for state changes`,
-      technologies:['React', 'Hooks', 'JS', 'Context API', 'Styled Components','React Router V6'],
-      url: 'https://ahmedgad-dev.github.io/woods/#/'
     },
     {
-      id: 2,
+      id: 1,
       title: 'Sema Decor',
       category: 'React',      
       img: 'https://i.ibb.co/yYkbs8t/Capture.png',
@@ -27,23 +45,13 @@ const menu = [
       url: 'https://sema-decor-zaqatala.netlify.app',
     },
     {
-      id: 3,
-      title: 'Bankist',
-      category: 'Vanilla JS',    
-      img: 'https://i.ibb.co/6YFFzDJ/Bankist1.png',
-      desc: `a functional programming paragdim project, allows money transfers, requesting loans and close accounts.
-             user:ag pin:1111 or user:an pin: 2222`,
-      technologies:['Vanilla JS', 'HTML5', 'CSS3'],
-      url: 'https://bankist-app-agdev.netlify.app/',
-    },
-    {
-      id: 4,
-      title: 'Books API',
-      category: 'React/API',
-      img: 'https://i.ibb.co/SxZxnGN/booksapp-img.png',
-      desc: `Project made with the Udacity proffessional web development training, my first react app it's calling Books api to add books from the API to different book shelfs see the udacity certification below ⬇`,
-      technologies:['React', 'API', 'CSS3'],
-      url: 'https://books-app-api.netlify.app/',
+      id: 2,
+      title: 'Woods',
+      category: 'React',
+      img: 'https://i.ibb.co/tDgLkvZ/comfy-Sloth1.png',
+      desc: `A furniture selling website has a shop page containing all sorts of filters made by reducers to keep one truth for state changes`,
+      technologies:['React', 'Hooks', 'JS', 'Context API', 'Styled Components','React Router V6'],
+      url: 'https://ahmedgad-dev.github.io/woods/#/'
     },
     {
       id: 5,
@@ -53,6 +61,25 @@ const menu = [
       img: 'https://i.ibb.co/m66Fr53/udco.png',
       desc: `UDCO is a real estates company that has multiple projects and that was one of my first projects for clients`,
       url: 'https://udco.netlify.app/',
+    },
+    // {
+    //   id: 3,
+    //   title: 'Bankist',
+    //   category: 'Vanilla JS',    
+    //   img: 'https://i.ibb.co/6YFFzDJ/Bankist1.png',
+    //   desc: `a functional programming paragdim project, allows money transfers, requesting loans and close accounts.
+    //          user:ag pin:1111 or user:an pin: 2222`,
+    //   technologies:['Vanilla JS', 'HTML5', 'CSS3'],
+    //   url: 'https://bankist-app-agdev.netlify.app/',
+    // },
+    {
+      id: 4,
+      title: 'Books API',
+      category: 'React/API',
+      img: 'https://i.ibb.co/SxZxnGN/booksapp-img.png',
+      desc: `Project made with the Udacity proffessional web development training, my first react app it's calling Books api to add books from the API to different book shelfs see the udacity certification below ⬇`,
+      technologies:['React', 'API', 'CSS3'],
+      url: 'https://books-app-api.netlify.app/',
     },
     {
       id: 6,
@@ -78,7 +105,7 @@ const menu = [
       title: 'Nexter React',
       category: 'React',
       img: 'https://i.ibb.co/87wnnj7/nexter1.png',
-      desc: `a beautifully designed website using CSS grids and remastered with react reusable components`,
+      desc: `a beautifully designed landing page using CSS grids and remastered with react reusable components`,
       technologies: ['React', 'SASS'],
       url: 'https://nexter-react-version.netlify.app/'
     },
@@ -92,15 +119,15 @@ const menu = [
       technologies: ['React', 'Hooks' , 'Restful API', 'Context API'],
       url : 'https://movies-finder-agdev.netlify.app',
     },
-    {
-      id: 10,
-      title: 'Budjet JS',
-      category: 'HTML/CSS/JS',
-      img: 'https://i.ibb.co/CvS0m0J/budget-app.png',
-      desc: `Web app that manages and calculates income and expenses and show the total available money and the spending rates`,
-      technologies: ['JavaScript', 'ES6 JS' , 'Vanilla JS', 'HTML5','CSS3'],
-      url : 'https://agad-budget-app.netlify.app/',
-    },
+    // {
+    //   id: 10,
+    //   title: 'Budjet JS',
+    //   category: 'HTML/CSS/JS',
+    //   img: 'https://i.ibb.co/CvS0m0J/budget-app.png',
+    //   desc: `Web app that manages and calculates income and expenses and show the total available money and the spending rates`,
+    //   technologies: ['JavaScript', 'ES6 JS' , 'Vanilla JS', 'HTML5','CSS3'],
+    //   url : 'https://agad-budget-app.netlify.app/',
+    // },
   ];
 
   export default menu;

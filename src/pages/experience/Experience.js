@@ -19,54 +19,87 @@ const Experience = () => {
           <Cv/>    
         </div>
         <div className="details p-12">
-          <div className="information-block mb-8 text-start">
-            <h3 className='employer'>Freelance</h3>
-            <div className="job-title">Full Stack Web Developer</div>
-            <span className='period'>May 2022 </span>
-            <ul className="skills">
-              <li>Building Full Stack Web Apps</li>
-              <li>React/Redux</li>
-              <li>UI/UX</li>
-              <li>Web API's</li>
-              <li>Node/Express</li>
-              <li>PWA</li>
-            </ul>
-          </div>
-          
-          <div className="information-block mb-8 text-start">
-            <h3 className='employer'>UDCO Systems</h3>
-            <div className="job-title">React Developer</div>
-            <span className='period'>Oct 2020 - May 2023 </span>
+
+        <div className="information-block mb-8 text-start">
+            <h3 className='employer'>CREATION.LTD</h3>
+            <div className="job-title">REACT/NEXT FRONT END DEVELOPER</div>
+            <span className='period'>JULY 2024 - PRESENT </span>
               <ul className='skills'>
-                <li>Design, develop, testing react web apps </li>
+                <li>In creation we work on an invitation maker app it has a huge state as it allows users to make a whole design on an invitation including choosing themes, many colors features, texts, pictures of card and background,
+                   even the ability to track those invitations and add other cohosts to it it's coming live soon.
+                </li>
+                <li>React, Redux toolkit, RTK query, tailwind CSS, react hook form, Chadcn</li>
+                <li>SaaS applications & dashboards</li>
+                <li>Attention to the most simplest details for working in the design and marketing field</li>
+                <li>Make progressive web apps</li>
+                <li>Unit testing (jest)</li>
+                <li>CI/CD</li>
+              </ul>
+          </div> 
+
+        <div className="information-block mb-8 text-start">
+            <h3 className='employer'>E2E COUNTY TRAVWARE SOLUTIONS</h3>
+            <div className="job-title">REACT/NEXT FRONT END DEVELOPER</div>
+            <span className='period'>OCT 2023 - JULY 2024 </span>
+              <ul className='skills'>
+                <li>Developing Booking engines and ERB systems that contains complex 
+                  mathematical equations and features as they were working in the tourism and travel domain.</li>
                 <li>Apply Performance optimizations for products</li>
-                <li>work on Back End with Node express server or Firebase</li>
+                <li>Singular page applications with NEXT.js routes</li>
+                <li>Server side rendering (SSR)</li>
                 <li>Make progressive web apps</li>
                 <li>Unit and integration testing (jest)</li>
                 <li>Docker</li>
                 <li>CI/CD</li>
-                <li>AWS</li>
-                <li>CMS</li>
-                <li>Wordpress</li>
-                <li>Hosting & CPanel</li>
+                <li>Form Generators</li>
               </ul>
-          </div>
+          </div> 
+
+          <div className="information-block mb-8 text-start">
+            <h3 className='employer'>Dracode</h3>
+            <div className="job-title">REACT/NEXT FRONT END DEVELOPER</div>
+            <span className='period'>NOV 2022 - AUGUST 2023</span>
+              <ul className='skills'>
+                <li>
+                   Dracode is a software house developing all kinds of various projects using cutting edge modern technologies like react, 
+                  redux, javascript, tailwind CSS and others to develop high quality SPA applications.
+                  </li>
+              </ul>
+          </div> 
 
           <div className="information-block mb-8 text-start">
             <h3 className='employer'>Circles Systems</h3>
             <div className="job-title">Front end web developer</div>
-            <span className='period'>Jan 2020 - Oct 2020</span>
+            <span className='period'>OCT 2021 - JULY 2022</span>
             <ul className='skills'>
-              <li>Design, develop and test UI/UX</li>
-              <li>Implement Functions and logic with time and complexity optimizations</li>
+              <li>Develop and maintain SaaS projects</li>
+              <li>HTML/CSS/JS</li>
               <li>Performance optimizations</li>
               <li>SEO optimization</li>
               <li>Unit testing</li>
-              <li>MVC building approach</li>
+              <li>MVC</li>
               <li>Deploy web apps to production </li>
               <li>configuring web pack and babel</li>
               <li>AWS</li>
               <li>CMS</li>
+            </ul>
+          </div>
+
+          <div className="information-block mb-8 text-start">
+            <h3 className='employer'>Freelance</h3>
+            <div className="job-title">Full Stack Web Developer</div>
+            <span className='period'>MAY 2021 - PRESENT</span>
+            <ul className="skills">
+              <li>Building Full Stack Web Apps</li>
+              <li>React/Redux</li>
+              <li>CSS/Tailwind</li>
+              <li>Web API's</li>
+              <li>Node/Express</li>
+              <li>PWA</li>
+              <li>Word Press</li>
+              <li>CMS</li>
+              <li>Hosting & CPanel</li>
+              <li>Firebase</li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import './header.scss'
-import personalImage from '../../assets/images/ahmed-gad.jpg'
+import personalImage from '../../assets/images/ahmed-gad.jpeg'
 import { ReactComponent as Calender } from '../../assets/svg/calendar-alt-stroke.svg'
 import { ReactComponent as Earth } from '../../assets/svg/earth.svg'
 import { ReactComponent as Location } from '../../assets/svg/location.svg'
@@ -29,7 +29,7 @@ import { ReactComponent as LinkedIn } from '../../assets/svg/linkedin2.svg'
 import Logo from '../logo/Logo'
 import {motion} from 'framer-motion'
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import CustomCursor from '../CustomCursor'
 function Header() {
   return (
   <Fragment>
@@ -118,6 +118,7 @@ function Header() {
      </div>
     </div>
    </div>
+   <CustomCursor/>
   </Fragment>
   )
 }
