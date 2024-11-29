@@ -6,7 +6,7 @@ import {ReactComponent as GithubIcon} from '../../assets/svg/github.svg'
 import { Link } from 'react-router-dom'
 
 const Repos = ({githubPage, hommePage}) =>{
-     const {data, githubUser} = useContext(GithubContext)
+     const {data} = useContext(GithubContext)
      const[repos, setRepos] = useState([])
      const[page, setPage] = useState(0)
     
@@ -47,8 +47,8 @@ const Repos = ({githubPage, hommePage}) =>{
      </h1>
      
       <p className='git-info text-black text-base lg:text-2xl capitalize ml-12 mt-6 p-8 w-2/3 lg:w-1/2'>
-        {`here is a list of all my repos coming from 
-          my github account using the github API to fetch the repos ${githubPage? '(in case you missed them at home page 😉)': ''}`}
+        {`here is a list of all my (public) repos coming from 
+          my github account using the github API to fetch the repos${githubPage? '(in case you missed them at home page 😉)': ', you can see more in my'}`}
          {hommePage?  <Link to='/github' className='git-link'>Github Page</Link> : ''} 
       </p>
       <div className='repos--list flex justify-around align-center flex-wrap  p-3 sm:p-8'>

@@ -12,7 +12,7 @@ const CV = () => {
         <div className="Tilt-inner pa3">
          {/* <img style={{paddingTop: '5px'}} alt='cv' src={filesEmpty} width='150px' height= '150px' title='CV'/>*/}
          <Attachment className='cv-icon cv-icon__attachment'/>  
-           <a target='blank' href='https://docs.google.com/document/d/1bDmFoZU-PnAceFs62Q2H0tYHholL8Yj3/edit?usp=drive_web&ouid=118067492599302819782&rtpof=true'>
+           <a target='_blank' href='https://drive.google.com/file/d/1zypyWEwWOxs3cagGQugCY6L2E3kBcXAh/view?usp=drive_link'>
             <FilesEmpty className='cv-icon cv-icon__files'/> 
            </a>
         </div>

@@ -3,9 +3,8 @@ import './features.scss'
 import '../../sass/grid.scss'
 import { ReactComponent as ReactIcon } from '../../assets/svg/react.svg'
 import { ReactComponent as Jest } from '../../assets/svg/jest.svg'
-import { ReactComponent as NodeIcon } from '../../assets/svg/node-dot-js.svg'
 import { ReactComponent as Redux } from '../../assets/svg/redux.svg'
-
+import { SiNextdotjs } from "react-icons/si";
 
 const Features = () => {
   return (
@@ -29,8 +28,26 @@ const Features = () => {
                      <li>Context API</li>
                      <li>React Redux</li>
                      <li>Material UI</li>
-                     <li>Framer Motion</li>
-                     <li>Jest</li>
+                     <li>React Hook Form</li>
+                   </ul>
+                </p>
+            </div>
+        </div>
+
+        <div className="col-1-of-4">
+            <div className="feature-box flex flex-col jutsify-center align-center">
+                <div className='flex self-center align-center items-center justify-center gap-3'>
+                    <SiNextdotjs className='feature-box__icon' />
+                </div>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">Next JS</h3>
+                 <p className="feature-box__text">
+                   <ul>
+                    <li>Server Side Pages</li>
+                    <li>Next 14</li>
+                    <li>SEO Optimization</li>
+                    <li>App Router</li>
+                    <li>Page Router</li>  
+                    <li>Form Generators</li>           
                    </ul>
                 </p>
             </div>
@@ -41,16 +58,15 @@ const Features = () => {
                 <div className='flex self-center align-center items-center justify-center gap-3'>
                     <Redux className='feature-box__icon' /> 
                 </div>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">REDUX</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small m-2">RTK</h3>
                 <p className="feature-box__text">
                   <ul>
-                    <li>Store & Reducers</li>  
-                    <li>React redux</li>
                     <li>Redux Toolkit</li>
-                    <li>Redux Thunk</li>                  
-                    <li>Redux Saga</li>                
-                    <li>Reselect</li>
-                    <li>Immer</li>                          
+                    <li>Store & Reducers</li> 
+                    <li>State Managemnt</li> 
+                    <li>RTK Query</li>                  
+                    <li>RTK Slices</li>                
+                    <li>Old Redux</li>                          
                   </ul>
                 </p>
             </div>
@@ -68,29 +84,8 @@ const Features = () => {
                     <li>Jest</li>
                     <li>Unit Testing</li>
                     <li>React/Redux dev tool</li>
-                    <li>React_perf</li>
                     <li>Integration Testing</li>  
                     <li>PWA</li>                                   
-                   </ul>
-                </p>
-            </div>
-        </div>
-
-        <div className="col-1-of-4">
-            <div className="feature-box flex flex-col jutsify-center align-center">
-                <div className='flex self-center align-center items-center justify-center gap-3'>
-                    <NodeIcon className='feature-box__icon' />
-                </div>
-                <h3 className="heading-tertiary u-margin-bottom-small m-2">BACKEND</h3>
-                 <p className="feature-box__text">
-                   <ul>
-                    <li>Express JS</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSql</li>
-                    <li>Redis</li>
-                    <li>Authentication</li>
-                    <li>Data Encryption</li>   
-                    <li>Docker</li>               
                    </ul>
                 </p>
             </div>

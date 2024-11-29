@@ -5,6 +5,7 @@ import turing3 from '../../assets/images/redux-turing.webp'
 import linkedin1 from '../../assets/images/css-badge.webp'
 import linkedin2 from '../../assets/images/linkedIn-badge.webp'
 import linkedin3 from '../../assets/images/react-js-certificate.webp'
+import freeCodeCamp from '../../assets/images/free-code-camp.webp'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './experience.scss'
 import Cv from '../../components/cv/CV'
@@ -105,14 +106,18 @@ const Experience = () => {
         </div>
       </div>
 
-     <div className="gallery w-full h-auto lg:w-2/3">
-      <figure className="gallery__item gallery__item--1"><LazyLoadImage src={turing1} alt="Gallery" className="gallery__img"/></figure>
-      <figure className="gallery__item gallery__item--2"><LazyLoadImage src={turing3} alt="Gallery" className="gallery__img"/></figure>
-      <figure className="gallery__item gallery__item--3"><LazyLoadImage src={turing2} alt="Gallery" className="gallery__img"/></figure>
-      <figure className="gallery__item gallery__item--4"><LazyLoadImage src={linkedin1} alt="Gallery" className="gallery__img"/></figure>
-      <figure className="gallery__item gallery__item--5"><LazyLoadImage src={linkedin2} alt="Gallery" className="gallery__img"/></figure>
-      <figure className="gallery__item gallery__item--6"><LazyLoadImage src={linkedin3} alt="Gallery" className="gallery__img"/></figure>
-     </div>
+
+        <div className="gallery w-full h-auto lg:w-2/3">
+         <figure className="gallery__item gallery__item--1"><LazyLoadImage src={turing1} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--2"><LazyLoadImage src={turing3} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--3"><LazyLoadImage src={turing2} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--4"><LazyLoadImage src={linkedin1} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--5"><LazyLoadImage src={linkedin2} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--6"><LazyLoadImage src={linkedin3} alt="Gallery" className="gallery__img"/></figure>
+         <figure className="gallery__item gallery__item--7"><LazyLoadImage src={freeCodeCamp} alt="Gallery" className="gallery__img"/></figure>
+        </div>
+
+
     </div>
   </section>  
   )
