@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3a15c191.css",
-    "main.js": "/portfolio/static/js/main.e486363b.js",
+    "main.css": "/portfolio/static/css/main.83b0cb78.css",
+    "main.js": "/portfolio/static/js/main.f5cb8ec3.js",
     "static/js/787.d4aba7ab.chunk.js": "/portfolio/static/js/787.d4aba7ab.chunk.js",
     "static/media/background.webp": "/portfolio/static/media/background.9c19e3ec734c471ad6b9.webp",
-    "static/media/design-3.webp": "/portfolio/static/media/design-3.d1c1a2ecd76f5249d3e5.webp",
-    "static/media/design-2.webp": "/portfolio/static/media/design-2.d09804957c1daeaa45e3.webp",
-    "static/media/design-1.webp": "/portfolio/static/media/design-1.e4fc5ac3054caffec217.webp",
+    "static/media/sema-decor.webp": "/portfolio/static/media/sema-decor.010448677b951a10e180.webp",
+    "static/media/semi.webp": "/portfolio/static/media/semi.e8ef938e162a4656eb6e.webp",
     "static/media/ahmed-gad.jpeg": "/portfolio/static/media/ahmed-gad.f27e26b7262803aaa632.jpeg",
     "static/media/Studio-Project-transparent-3.png": "/portfolio/static/media/Studio-Project-transparent-3.217da1603ee8df858f54.png",
     "static/media/aou.webp": "/portfolio/static/media/aou.3c7e501f6878a95f46fa.webp",
     "static/media/Studio-Project-transparent-2.png": "/portfolio/static/media/Studio-Project-transparent-2.841481724621daf8d29e.png",
     "static/media/udacity.webp": "/portfolio/static/media/udacity.99353bbd3fb0c6f3e5f7.webp",
+    "static/media/Dashboard.png": "/portfolio/static/media/Dashboard.13742dfc3e8e710100ce.png",
+    "static/media/free-code-camp.webp": "/portfolio/static/media/free-code-camp.11a1842211be6291efe2.webp",
     "static/media/css-badge.webp": "/portfolio/static/media/css-badge.9954d3afc37a279a5046.webp",
     "static/media/linkedIn-badge.webp": "/portfolio/static/media/linkedIn-badge.4164b8d9c148f66ccaee.webp",
     "static/media/react-js-certificate.webp": "/portfolio/static/media/react-js-certificate.c359e5a0fb086315d7a5.webp",
@@ -48,12 +49,12 @@
     "static/media/css3.svg": "/portfolio/static/media/css3.64bbeb769821180dc8b3077a9b53a92e.svg",
     "static/media/location.svg": "/portfolio/static/media/location.16d448f5095df05c600c40fa37e4f847.svg",
     "static/media/phone.svg": "/portfolio/static/media/phone.9553808c2045790e30e550f74b5bed2b.svg",
-    "main.3a15c191.css.map": "/portfolio/static/css/main.3a15c191.css.map",
-    "main.e486363b.js.map": "/portfolio/static/js/main.e486363b.js.map",
+    "main.83b0cb78.css.map": "/portfolio/static/css/main.83b0cb78.css.map",
+    "main.f5cb8ec3.js.map": "/portfolio/static/js/main.f5cb8ec3.js.map",
     "787.d4aba7ab.chunk.js.map": "/portfolio/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a15c191.css",
-    "static/js/main.e486363b.js"
+    "static/css/main.83b0cb78.css",
+    "static/js/main.f5cb8ec3.js"
   ]
 }
