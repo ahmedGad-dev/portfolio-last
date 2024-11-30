@@ -20,7 +20,7 @@ const menu = [
       {
         id: 22,
         title: 'Hulul Dashboard',
-        category: 'React.js',      
+        category: 'React',      
         img: 'https://i.ibb.co/jfckTCs/hulul-dashboard.png',
         desc: `A Full hotel managment dashboard for mangaging rooms, employees, services, floors as CRUD operations (Desktop view only)`,
         technologies: ['React', 'Redux', 'RTK/RTK query', 'Tailwind', 'Rest API integrations'],
