@@ -15,7 +15,7 @@ const menu = [
       img: 'https://i.ibb.co/3F311p8/eduicita.png',
       desc: `An educational platform where students can regsiter for courses and view thier lessons and quizzes, it has an internal dashboard for instructors manage thier courses`,
       technologies: ['Next', 'Redux', 'App router', "SSR", 'Tailwind', 'Rest API integrations'],
-      url: 'https://educita-lms.vercel.app/',
+      url: 'https://educita.org',
       },
       {
         id: 22,
