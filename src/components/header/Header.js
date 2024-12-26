@@ -35,7 +35,7 @@ function Header() {
   <Fragment>
     <div className="header h-full xl:h-screen lg:w-screen p-6 relative flex justify-between from-primary to-secondary text-primary-content -mt-[4rem] grid 
        place-items-center items-end bg-gradient-to-br pt-20 bg-contain"> 
-
+    <div className="container max-w-screen-2xl flex justify-between items-start">
       <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3"> 
          <div className="site-logo site-logo__2 flex self-start mb-2">
             <Logo/>
@@ -101,7 +101,7 @@ function Header() {
          </div>
       </div> 
     
-     <div className="card-container w-1/2 flex justify-end">  
+     <div className="card-container w-1/2 flex justify-end lg:mr-3 2xl:mr-0">  
       <div className="card w-96 glass shadow-xl">
       <div><figure><LazyLoadImage src= {personalImage} alt="card!" className='card-image mt-4'/></figure></div> 
         <div className="card-body text-white">
@@ -116,6 +116,7 @@ function Header() {
          </div>      
        </div>
      </div>
+    </div>
     </div>
    </div>
    <CustomCursor/>
