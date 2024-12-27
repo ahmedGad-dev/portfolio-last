@@ -73,7 +73,7 @@
       .brand-icon{
         width: 65px;
         height: 65px;
-        fill:  	gray;
+        fill:  	whitesmoke;
         margin-right: 7px;
       } 
 
@@ -119,13 +119,6 @@
      }
    }
 
-   @media(max-width: 1400px){
-    //  height: 65vh;
-     .card-container{
-       justify-content: flex-end;       
-     }   
-   }
-
    @media(max-width: 1024px){
     // height: 95vh;
     flex-direction: column;
@@ -155,7 +148,7 @@
       min-width: 600px; 
 
       .card-image{
-        width: auto;
+        width: 70%;
         margin: 1rem;
       }
       .card-body{

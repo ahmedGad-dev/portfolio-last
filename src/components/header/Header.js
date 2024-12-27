@@ -26,6 +26,8 @@ import { ReactComponent as Mobile } from '../../assets/svg/mobile.svg'
 import { ReactComponent as Circle } from '../../assets/svg/circle.svg'
 import { ReactComponent as Global } from '../../assets/svg/global.svg'
 import { ReactComponent as LinkedIn } from '../../assets/svg/linkedin2.svg'
+import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import Logo from '../logo/Logo'
 import {motion} from 'framer-motion'
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -35,7 +37,7 @@ function Header() {
   <Fragment>
     <div className="header h-full xl:h-screen lg:w-screen p-6 relative flex justify-between from-primary to-secondary text-primary-content -mt-[4rem] grid 
        place-items-center items-end bg-gradient-to-br pt-20 bg-contain"> 
-    <div className="container max-w-screen-2xl flex justify-between items-start">
+    <div className="container lg:max-w-screen-2xl flex flex-col items-center lg:flex-row justify-between items-start">
       <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3"> 
          <div className="site-logo site-logo__2 flex self-start mb-2">
             <Logo/>
@@ -80,9 +82,9 @@ function Header() {
               <ReactIcon className='brand-icon'/>
               <JavascriptIcon className='brand-icon'/>
               <ReduxIcon className='brand-icon'/>
+              <SiNextdotjs className='brand-icon'/> 
               <NodeIcon className='brand-icon'/>
-              <FirebaseIcon className='brand-icon'/> 
-              <PostgreSql className='brand-icon'/>           
+              <SiTypescript className='brand-icon'/>       
             </div>
 
             <div className="brands-col flex flex-row mb-3">
@@ -101,7 +103,7 @@ function Header() {
          </div>
       </div> 
     
-     <div className="card-container w-1/2 flex justify-end lg:mr-3 2xl:mr-0">  
+     <div className="card-container w-full md:w-1/2 flex justify-center lg:justify-end lg:mr-3 2xl:mr-0">  
       <div className="card w-96 glass shadow-xl">
       <div><figure><LazyLoadImage src= {personalImage} alt="card!" className='card-image mt-4'/></figure></div> 
         <div className="card-body text-white">
