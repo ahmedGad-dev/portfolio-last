@@ -38,7 +38,7 @@ function Header() {
     <div className="header h-full xl:h-screen lg:w-screen p-6 relative flex justify-between from-primary to-secondary text-primary-content -mt-[4rem] grid 
        place-items-center items-end bg-gradient-to-br pt-20 bg-contain"> 
     <div className="container lg:max-w-screen-2xl flex flex-col items-center lg:flex-row justify-between items-start">
-      <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3"> 
+      <div className="details flex flex-col w-1/2 md:w-1/4 h-full align-center mt-3 gap-4"> 
          <div className="site-logo site-logo__2 flex self-start mb-2">
             <Logo/>
          </div>
@@ -77,7 +77,7 @@ function Header() {
             </ul>
          </div>
 
-         <div className="brands rounded-lg flex flex-col justify-center align-center items-center self-end">
+         <div className="brands rounded-lg flex flex-col justify-center align-center items-center">
             <div className="brands-col flex flex-row mb-3">
               <ReactIcon className='brand-icon'/>
               <JavascriptIcon className='brand-icon'/>
